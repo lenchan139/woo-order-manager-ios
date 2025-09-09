@@ -12,6 +12,7 @@ struct Woo_Order_ManagerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: WooProfileData.self)
         }
     }
 }
