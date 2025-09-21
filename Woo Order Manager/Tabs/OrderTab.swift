@@ -5,7 +5,7 @@
 //  Created by Len Chan on 8/9/2025.
 //
 
-import SwiftUICore
+import SwiftUI
 
 
 struct OrderTab: View{

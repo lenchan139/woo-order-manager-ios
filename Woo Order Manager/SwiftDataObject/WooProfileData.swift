@@ -10,7 +10,7 @@ import SwiftData
 
 @Model
 final class WooProfileData{
-var name: String
+    @Attribute(.unique)  var name: String
    var  domain: String
 var username: String
 var password: String
